@@ -7,5 +7,9 @@ class Student < User
   def learn(string)
     self.knowledge << string
   end
+  
+  def knowledge
+    self.knowledge
+  end
 
 end
